@@ -1,0 +1,60 @@
+{
+    "rows": 11,
+    "columns": 9,
+    "column_names": [
+        "student_id",
+        "name",
+        "domain",
+        "attendance_percent",
+        "score",
+        "study_hours",
+        "height",
+        "weight",
+        "submitted"
+    ],
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 1,
+        "score": 1,
+        "study_hours": 0,
+        "height": 0,
+        "weight": 1,
+        "submitted": 0
+    },
+    "duplicate_rows": 1,
+    "duplicate_student_ids": 1,
+    "data_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "str",
+        "score": "str",
+        "study_hours": "str",
+        "height": "str",
+        "weight": "str",
+        "submitted": "str"
+    },
+    "numeric_statistics": "no numeric columns in this data (all are text)",
+    "category_counts": {
+        "domain": {
+            "ML": 2,
+            "web": 2,
+            "ml": 1,
+            "Web Dev": 1,
+            "electronics": 1,
+            "MACHINE LEARNING": 1,
+            "Mechanical": 1,
+            "Electronics": 1,
+            "web development": 1
+        },
+        "submitted": {
+            "yes": 6,
+            "no": 2,
+            "Yes": 1,
+            "Y": 1,
+            "N": 1
+        }
+    }
+}

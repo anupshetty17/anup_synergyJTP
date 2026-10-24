@@ -1,0 +1,103 @@
+{
+    "rows": 10,
+    "columns": 9,
+    "column_names": [
+        "student_id",
+        "name",
+        "domain",
+        "attendance_percent",
+        "score",
+        "study_hours",
+        "height_cm",
+        "weight_kg",
+        "submitted"
+    ],
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 0,
+        "score": 0,
+        "study_hours": 0,
+        "height_cm": 0,
+        "weight_kg": 0,
+        "submitted": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_student_ids": 0,
+    "data_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "float64",
+        "score": "float64",
+        "study_hours": "float64",
+        "height_cm": "float64",
+        "weight_kg": "float64",
+        "submitted": "str"
+    },
+    "numeric_statistics": {
+        "attendance_percent": {
+            "count": 10.0,
+            "mean": 86.6,
+            "std": 6.48,
+            "min": 72.0,
+            "25%": 85.75,
+            "50%": 88.0,
+            "75%": 89.5,
+            "max": 95.0
+        },
+        "score": {
+            "count": 10.0,
+            "mean": 5.8,
+            "std": 3.46,
+            "min": 0.0,
+            "25%": 4.5,
+            "50%": 7.0,
+            "75%": 7.75,
+            "max": 10.0
+        },
+        "study_hours": {
+            "count": 10.0,
+            "mean": 3.5,
+            "std": 2.42,
+            "min": 0.0,
+            "25%": 2.0,
+            "50%": 3.5,
+            "75%": 4.75,
+            "max": 8.0
+        },
+        "height_cm": {
+            "count": 10.0,
+            "mean": 166.5,
+            "std": 7.95,
+            "min": 155.0,
+            "25%": 160.5,
+            "50%": 166.5,
+            "75%": 171.5,
+            "max": 180.0
+        },
+        "weight_kg": {
+            "count": 10.0,
+            "mean": 61.4,
+            "std": 11.12,
+            "min": 49.0,
+            "25%": 52.75,
+            "50%": 58.0,
+            "75%": 68.75,
+            "max": 80.0
+        }
+    },
+    "category_counts": {
+        "domain": {
+            "ML": 4,
+            "Web Dev": 3,
+            "Electronics": 2,
+            "Mechanical": 1
+        },
+        "submitted": {
+            "Submitted": 7,
+            "Not Submitted": 3
+        }
+    }
+}
